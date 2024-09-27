@@ -21,6 +21,8 @@ def activate():
         print(e)
     text2 = Label(root, text="Activated", bg="green")
     text2.pack()
+    text3 = Label(root, text="Created By Mohammad Mahfuz Rahman")
+    text3.pack()
 btn = Button(root, text="Activate", bg="red",  command=activate)
 btn.pack()
 root.mainloop()
